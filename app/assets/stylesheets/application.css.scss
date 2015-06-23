@@ -1,10 +1,16 @@
   @import "bootstrap-sprockets";
   @import "bootstrap";
 
-body.home { 
-  background: url(https://s3.amazonaws.com/rocketfueltech/rocketfuel.jpg) no-repeat center center fixed ;
+
+body.home {
+  background: url(https://s3.amazonaws.com/rocketfueltech/rocketfuel.jpg) no-repeat center center fixed;
   background-color: black;
-  }
+}
+
+body {
+  background-color: black;
+}
+
 
 
 .rft {
