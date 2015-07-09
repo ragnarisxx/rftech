@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  # get '/'
+  get '/combine' => 'pages#combine'
   get '/pinocle' => 'pages#pinocle'
   get '/about' => 'pages#about'
   root 'pages#home'
