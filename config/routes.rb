@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :contacts
   get '/combine' => 'pages#combine'
   get '/pinocle' => 'pages#pinocle'
   get '/about' => 'pages#about'

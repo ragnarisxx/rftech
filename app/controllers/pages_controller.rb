@@ -3,4 +3,9 @@ class PagesController < ApplicationController
   end
   def about
   end
+  def combine
+  end
+  def pinocle
+  end
+ 
 end
