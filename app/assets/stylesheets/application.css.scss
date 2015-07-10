@@ -24,7 +24,7 @@ body {
 
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
-
+/*
 
 .slides {
     padding: 0;
@@ -139,4 +139,14 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 .abpg {
     color: white;
+}
+*/
+.selected img {
+	opacity:0.5;
+}
+
+
+.pimage {
+    height: 80px;
+    width: 80px;
 }
